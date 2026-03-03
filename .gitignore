@@ -1,0 +1,55 @@
+# dependencies
+/node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# iOS
+ios/
+Pods/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.mobileprovision
+*.orig
+*.ipr
+*.xcuserstate
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Android
+android/
+*.iml
+*.hprof
+.gradle/
+local.properties
+*.apk
+*.aab
+
+# OSX
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
